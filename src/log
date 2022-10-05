@@ -1,0 +1,173 @@
+BufferManager::BufferManager
+ParseQuery::clear
+
+Reading New Command: 
+LOAD MATRIX MAT
+doCommand
+syntacticParse
+syntacticParseLOAD
+semanticParse
+semanticParseLOAD
+MatrixCatalogue::isMatrix
+executeLOAD
+executeLOAD (MATRIX)
+Matrix::Matrix
+Matrix::load
+Matrix::getNumColumns
+Matrix::blockify
+BufferManager::writePage
+Page::Page
+Page::writePage
+MatrixCatalogue::~insertMatrix
+ParseQuery::clear
+
+Reading New Command: 
+LOAD MATRIX MAT1
+doCommand
+syntacticParse
+syntacticParseLOAD
+semanticParse
+semanticParseLOAD
+MatrixCatalogue::isMatrix
+executeLOAD
+executeLOAD (MATRIX)
+Matrix::Matrix
+Matrix::load
+Matrix::getNumColumns
+Matrix::blockify
+BufferManager::writePage
+Page::Page
+Page::writePage
+MatrixCatalogue::~insertMatrix
+ParseQuery::clear
+
+Reading New Command: 
+CROSS_TRANSPOSE MAT MAT1
+doCommand
+syntacticParse
+syntacticParseCROSS_TRANSPOSE
+semanticParse
+semanticParseCROSS_TRANSPOSE
+MatrixCatalogue::isMatrix
+MatrixCatalogue::isMatrix
+MatrixCatalogue::getMatrix
+MatrixCatalogue::getMatrix
+executeCROSS_TRANSPOSE
+MatrixCatalogue::getMatrix
+MatrixCatalogue::getMatrix
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+Matrix::getIJ
+Matrix::getIJ
+Matrix::updIJ
+Matrix::updIJ
+ParseQuery::clear
+
+Reading New Command: 
+EXPORT MAT
+doCommand
+syntacticParse
+syntacticParseEXPORT
+semanticParse
+semanticParseEXPORT
+TableCatalogue::isTable
+ParseQuery::clear
+
+Reading New Command: 
+EXPORT MATRIX MAT
+doCommand
+syntacticParse
+syntacticParseEXPORT
+semanticParse
+semanticParseEXPORT
+MatrixCatalogue::isMatrix
+executeEXPORT
+MatrixCatalogue::getMatrix
+Matrix::makePermanent
+Matrix::isPermanent
+ParseQuery::clear
+
+Reading New Command: 
+EXPORT MATRIX MAT1
+doCommand
+syntacticParse
+syntacticParseEXPORT
+semanticParse
+semanticParseEXPORT
+MatrixCatalogue::isMatrix
+executeEXPORT
+MatrixCatalogue::getMatrix
+Matrix::makePermanent
+Matrix::isPermanent
+ParseQuery::clear
+
+Reading New Command: 
+
+MatrixCatalogue::~MatrixCatalogue
+Matrix::~unload
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+Matrix::isPermanent
+Matrix::~unload
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+Matrix::isPermanent
+TableCatalogue::~TableCatalogue
